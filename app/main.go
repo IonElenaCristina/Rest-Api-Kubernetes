@@ -15,7 +15,7 @@ import (
 
 func newRouter() *httprouter.Router { //will return the multiplexer
 	mux := httprouter.New()
-	mux.GET("/youtoube/channel/stats", getChannelStats())
+	mux.GET("/youtube/channel/stats", getChannelStats())
 	return mux
 }
 
